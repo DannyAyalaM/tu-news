@@ -1,5 +1,5 @@
 # TU-NEWS
-## Basic Requirements
+## Requerimientos
 
 1. La versión de node utilizada para este proyeto es v24.0.2
 2. Puedes utilizar nvm como manejador de versiones de node
