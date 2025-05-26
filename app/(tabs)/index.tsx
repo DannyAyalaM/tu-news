@@ -33,8 +33,8 @@ export default function News() {
     List(
       `?q=${params.q}&language=${params.language}&pageSize=${params.pageSize}&page=${params.page}`
     )
-      .then((res) => {
-        const responseInfo: any = res.json()
+      .then(async res => {
+        const responseInfo: any = await res.json()
         if (res.ok) return responseInfo
         throw new Error(responseInfo.message || "Error al consultar los datos");
       })
